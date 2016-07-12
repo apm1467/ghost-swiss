@@ -1,0 +1,14 @@
+{{!< default}}
+
+{{!-- Everything inside the #post tags pulls data from the post --}}
+{{#post}}
+<main class="content" role="main">
+    <article class="{{post_class}}">
+        <div class="tags">{{tags}}</div>
+        <h1><span class="pilcrow">¶</span><span class="text-title">{{{title}}}</span></h1>
+        {{content}}
+    </article>
+    <hr>
+</main>
+<footer><a href="/">Home</a></footer>
+{{/post}}

@@ -1,0 +1,27 @@
+{{!< default}}
+
+<article>
+{{^if success}}
+
+    <h1><span class="text-title">Subscribe</span></h1>
+    
+    <p>You can subscribe to posts via email here:</p>
+
+    {{subscribe_form
+        form_class="subscribe-form"
+        input_class="subscribe-input"
+        button_class="subscribe-button"
+        placeholder="Your email address"
+        autofocus="true"
+    }}
+{{else}}
+    <h1><span class="text-title">Subscribed</span></h1>
+
+    <p>
+        You've successfully subscribed with the email address <em>{{email}}</em>.
+    </p>
+{{/if}}
+</article>
+    
+<hr>
+<footer><a href="/">Home</a></footer>
