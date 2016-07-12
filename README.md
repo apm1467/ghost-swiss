@@ -1,9 +1,9 @@
 # Swiss
 
-A Swiss style blog theme for [Ghost CMS](https://ghost.org). Used on [yige.ch](http://yige.ch).
+A Swiss style blog theme for [Ghost](https://ghost.org). Used on [yige.ch](http://yige.ch).
 
 # Usage
 
-Copy the theme folder to your-ghost-blog/content/themes and restart your blog. You can see it after loggin in.
+Copy the theme folder to your-ghost-blog/content/themes and restart your blog. You will see the theme after loggin in your blog again.
 
-You should at first change the icon images in assets/, the Google Analytics code and te search bar code in default.hbs, though.
+You may want to change the icon images in assets/, the Google Analytics and the search box code in default.hbs though.
