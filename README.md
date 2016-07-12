@@ -1,6 +1,6 @@
 # Swiss
 
-A Swiss style blog theme for [Ghost](https://ghost.org). Used on [yige.ch](http://yige.ch).
+A Swiss style blog theme for [Ghost](https://ghost.org). Used on my personal blog [yige.ch](http://yige.ch).
 
 # Usage
 
