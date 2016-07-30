@@ -104,8 +104,8 @@ h1 {
 .text-title {
 	font-size: 1.15em;
 	font-weight: normal;
-	line-height: 1em;
-    border-style: none;
+	line-height: 1.3em;
+	border-style: none;
 	padding: 3px;
 	position: relative;
 	left: -3px;
@@ -113,7 +113,6 @@ h1 {
 .text-title a:hover, .text-title a:active {
 	border-width: 0px;
 	border-radius: 3px;
-	position: relative;
 	left: 0;
 }
 p {
