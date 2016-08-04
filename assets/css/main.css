@@ -68,9 +68,6 @@ header {
 article {
 	margin: 40px auto;
 	line-height: 1.5em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 sup {
     line-height: 0;
@@ -120,6 +117,10 @@ h1 {
 }
 p {
     margin-bottom: 1em;
+}
+p a {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 blockquote {
 	border-left: 2px solid rgb(187, 186, 184);
