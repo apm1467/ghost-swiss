@@ -119,6 +119,7 @@ p {
     margin-bottom: 1em;
 }
 p a {
+    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
