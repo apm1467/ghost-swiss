@@ -68,6 +68,9 @@ header {
 article {
 	margin: 40px auto;
 	line-height: 1.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 sup {
     line-height: 0;
