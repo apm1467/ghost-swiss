@@ -119,9 +119,10 @@ p {
     margin-bottom: 1em;
 }
 p a {
-    max-width: 200px;
+    max-width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 blockquote {
 	border-left: 2px solid rgb(187, 186, 184);
