@@ -26,7 +26,7 @@
 <body>
     <header>
         <div class="blog-title">
-			<a href="/" titel:{{@blog.title}}>
+			<a href="/" title={{@blog.title}}>
 				<img src="{{asset "pics/title.png"}}" alt="{{@blog.title}}" class="headerimg">
 			</a><br />
 			<div class="description">{{@blog.description}}</div>
@@ -43,7 +43,7 @@
     <footer>
         <!-- Search -->
         <form method="get" id="search" action="http://duckduckgo.com/">
-			<input type="hidden" name="sites"value="yige.ch"/>
+			<input type="hidden" name="sites" value="yige.ch"/>
             <input type="hidden" name="kn" value="1"/>
 			<input type="hidden" name="ka" value="Gill Sans"/>
 			<input type="hidden" name="k7" value="rgb(248, 247, 245)"/>
