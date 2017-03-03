@@ -126,6 +126,17 @@ blockquote {
 	padding: 0 1em 0 1em;
 	margin: 1.2em 0 1.2em 1em;
 }
+code {
+    background: rgb(239, 238, 234);
+	border-style: solid;
+	border-color: rgb(157, 156, 153, 0.8);
+	border-width: 1px;
+	margin: 0 -1px;
+	border-radius: 1px;
+}
+pre code {
+    display: block;
+}
 hr {
 	max-width: 260px;
 	margin: 80px auto;
