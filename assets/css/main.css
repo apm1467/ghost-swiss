@@ -102,6 +102,7 @@ h1 {
     margin-bottom: 1.1em;
 }
 .text-title {
+    display: block;
 	font-size: 1.15em;
 	font-weight: normal;
 	line-height: 1.3em;
@@ -128,6 +129,7 @@ blockquote {
 }
 code {
     font-size: 0.9em;
+    padding: 2px;
     background: rgb(239, 238, 234);
 	border-style: solid;
 	border-color: rgb(200, 199, 197);
@@ -137,6 +139,7 @@ code {
 }
 pre code {
     display: block;
+    padding: 0;
     padding-left: 2em;
 }
 hr {
