@@ -106,9 +106,9 @@ h1 {
 	font-weight: normal;
 	line-height: 1.3em;
 	border-style: none;
-	padding: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 	position: relative;
-	left: -3px;
 }
 .text-title a:hover, .text-title a:active {
 	border-width: 0;
@@ -127,15 +127,17 @@ blockquote {
 	margin: 1.2em 0 1.2em 1em;
 }
 code {
+    font-size: 0.9em;
     background: rgb(239, 238, 234);
 	border-style: solid;
-	border-color: rgb(157, 156, 153, 0.8);
+	border-color: rgb(200, 199, 197);
 	border-width: 1px;
 	margin: 0 -1px;
-	border-radius: 1px;
+	border-radius: 3px;
 }
 pre code {
     display: block;
+    padding-left: 2em;
 }
 hr {
 	max-width: 260px;
