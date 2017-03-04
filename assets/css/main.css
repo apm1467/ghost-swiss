@@ -83,6 +83,7 @@ sup {
     font-size: 0.9em;
     position: relative;
     left: -2.5em;
+    top: 0.3em;
     color: transparent;
     visibility: hidden;
     -webkit-transition: color 0.5s, visibility 0.5s;
@@ -99,7 +100,7 @@ sup {
 	color: rgb(250, 80, 60);
 }
 h1 {
-    margin-bottom: 1.1em;
+    margin-bottom: 0.1em;
 }
 .text-title {
     display: block;
@@ -107,14 +108,13 @@ h1 {
 	font-weight: normal;
 	line-height: 1.3em;
 	border-style: none;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px;
 	position: relative;
 }
-.text-title a:hover, .text-title a:active {
+.text-title:hover, .text-title:active {
 	border-width: 0;
 	border-radius: 3px;
-	left: 0;
+    margin: 0;
 }
 p {
     margin-bottom: 1em;
