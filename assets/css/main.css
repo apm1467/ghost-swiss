@@ -148,11 +148,11 @@ pre code {
 .inkout a {
     border-bottom: none;
 }
-.inkout:hover {
+.inkout:hover, .inkout:active, .inkout::selection {
     background: rgb(239, 238, 234);
     cursor: not-allowed;
 }
-.inkout:hover a {
+.inkout:hover a, .inkout:active a, .inkout::selection a {
     border-bottom: 1px solid rgb(200, 199, 197);
 }
 hr {
