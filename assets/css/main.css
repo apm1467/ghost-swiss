@@ -142,12 +142,18 @@ pre code {
     padding: 0;
     padding-left: 2em;
 }
-span .inkout {
+.inkout {
     background: rgb(66, 65, 63);
 }
-span .inkout:hover {
+.inkout a {
+    border-bottom: none;
+}
+.inkout:hover {
     background: rgb(239, 238, 234);
     cursor: not-allowed;
+}
+.inkout:hover a {
+    border-bottom: 1px solid rgb(200, 199, 197);
 }
 hr {
 	max-width: 260px;
