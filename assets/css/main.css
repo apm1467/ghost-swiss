@@ -142,12 +142,19 @@ pre code {
     padding: 0;
     padding-left: 2em;
 }
+span .inkout {
+    background: rgb(66, 65, 63);
+}
+span .inkout:hover {
+    background: rgb(239, 238, 234);
+    cursor: not-allowed;
+}
 hr {
 	max-width: 260px;
 	margin: 80px auto;
 	height: 1px;
 	border: 0;
-	background: rgba(157, 156, 153, 0.8)
+	background: rgba(157, 156, 153, 0.8);
 }
 footer {
 	width: 100%;
