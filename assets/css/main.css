@@ -69,11 +69,9 @@ article {
 	margin: 40px auto;
 	line-height: 1.5em;
 }
-sup {
-    line-height: 0;
-}
 .date {
 	color: rgb(157, 156, 153);
+	line-height: 1em;
     position: relative;
 	bottom: -8px;
 }
@@ -86,8 +84,8 @@ sup {
     top: 0.3em;
     color: transparent;
     visibility: hidden;
-    -webkit-transition: color 0.5s, visibility 0.5s;
-            transition: color 0.5s, visibility 0.5s;
+    -webkit-transition: color 0.2s, visibility 0.2s;
+            transition: color 0.2s, visibility 0.2s;
 }
 .pilcrow:hover {
     color: transparent !important;
@@ -118,9 +116,6 @@ h1 {
 }
 p {
     margin-bottom: 1em;
-}
-p a {
-    word-break: break-all;
 }
 blockquote {
 	border-left: 2px solid rgb(187, 186, 184);
