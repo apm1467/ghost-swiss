@@ -4,6 +4,9 @@
     {{!-- Document Settings --}}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    {{!-- Ghost outputs important style and meta data with this tag --}}
+    {{ghost_head}}
 
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
@@ -20,8 +23,6 @@
     {{!-- Styles --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
 
-    {{!-- Ghost outputs important style and meta data with this tag --}}
-    {{ghost_head}}
 </head>
 <body>
     <header>

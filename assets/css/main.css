@@ -1,79 +1,79 @@
 @charset "UTF-8";
 
 body {
-	background: rgb(248, 247, 245);
-	color: rgb(66, 65, 63);
-	font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
-	font-size: 16px;
-	max-width: 500px;
-	margin: 0 auto;
+    background: rgb(248, 247, 245);
+    color: rgb(66, 65, 63);
+    font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
     border-bottom: 1px solid rgb(200, 199, 197);
 }
 a:hover, a:active {
-	background: rgb(239, 238, 234);
-	border-style: solid;
-	border-color: rgb(239, 238, 234);
-	border-width: 3px;
-	margin: 0 -3px;
-	border-radius: 3px;
-	color: black;
+    background: rgb(239, 238, 234);
+    border-style: solid;
+    border-color: rgb(239, 238, 234);
+    border-width: 3px;
+    margin: 0 -3px;
+    border-radius: 3px;
+    color: black;
 }
 header {
-	margin: 60px auto;
-	width: 100%;
+    margin: 60px auto;
+    width: 100%;
 }
 .headerimg {
-	height: 25px;
+    height: 25px;
 }
 .blog-title {
-	width: 100%;
-	text-align: right;
-	margin: 40px auto;
+    width: 100%;
+    text-align: right;
+    margin: 40px auto;
 }
 .blog-title a {
-	border-style: none;
+    border-style: none;
 }
 .blog-title a:hover, .blog-title a:active {
-	border-style: solid;
-	border-width: 20px 5px 5px 10px;
-	border-radius: 4px;
-	border-color: rgb(239, 238, 234);
-	position: relative;
-	left: 2px;
+    border-style: solid;
+    border-width: 20px 5px 5px 10px;
+    border-radius: 4px;
+    border-color: rgb(239, 238, 234);
+    position: relative;
+    left: 2px;
 }
 .description {
-	width: 100%;
-	position: relative;
-	top: 5px;
-	left: -10px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+    left: -10px;
 }
 .navigation {
-	width: 100%;
-	line-height: 2em;
-	text-align: center;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
 }
 .navigation ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .navigation li {
-	display: inline;
-	margin: 0 4%;
+    display: inline;
+    margin: 0 4%;
 }
 article {
-	margin: 40px auto;
-	line-height: 1.5em;
+    margin: 40px auto;
+    line-height: 1.5em;
 }
 .date {
-	color: rgb(157, 156, 153);
-	line-height: 1em;
+    color: rgb(157, 156, 153);
+    line-height: 1em;
     position: relative;
-	bottom: -8px;
+    bottom: -8px;
 }
 .pilcrow {
     float: left;
@@ -95,42 +95,43 @@ article {
 }
 .text-title-container:hover .pilcrow {
     visibility: visible;
-	color: rgb(250, 80, 60);
+    color: rgb(250, 80, 60);
 }
 h1 {
     margin-bottom: 0.1em;
 }
 .text-title {
     display: block;
-	font-size: 1.15em;
-	font-weight: normal;
-	line-height: 1.3em;
-	border-style: none;
+    font-size: 1.15em;
+    font-weight: normal;
+    line-height: 1.3em;
+    border-style: none;
     padding: 3px;
-	position: relative;
+    position: relative;
+    left: -3px;
 }
 .text-title:hover, .text-title:active {
-	border-width: 0;
-	border-radius: 3px;
+    border-width: 0;
+    border-radius: 3px;
     margin: 0;
 }
 p {
     margin-bottom: 1em;
 }
 blockquote {
-	border-left: 2px solid rgb(187, 186, 184);
-	padding: 0 1em 0 1em;
-	margin: 1.2em 0 1.2em 1em;
+    border-left: 2px solid rgb(187, 186, 184);
+    padding: 0 1em 0 1em;
+    margin: 1.2em 0 1.2em 1em;
 }
 code {
     font-size: 0.9em;
     padding: 2px;
     background: rgb(239, 238, 234);
-	border-style: solid;
-	border-color: rgb(200, 199, 197);
-	border-width: 1px;
-	margin: 0 -1px;
-	border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(200, 199, 197);
+    border-width: 1px;
+    margin: 0 -1px;
+    border-radius: 3px;
 }
 pre code {
     display: block;
@@ -151,33 +152,33 @@ pre code {
     border-bottom: 1px solid rgb(200, 199, 197);
 }
 hr {
-	max-width: 260px;
-	margin: 80px auto;
-	height: 1px;
-	border: 0;
-	background: rgba(157, 156, 153, 0.8);
+    max-width: 260px;
+    margin: 80px auto;
+    height: 1px;
+    border: 0;
+    background: rgba(157, 156, 153, 0.8);
 }
 footer {
-	width: 100%;
-	text-align: center;
-	font-size: 0.9em;
-	margin: 30px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 30px auto;
 }
 .pagination ul {
     padding-left: 0;
 }
 .pagination li {
-	display: inline;
-	margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
 }
 #search {
-	display: inline;
-	width: 110px;
+    display: inline;
+    width: 110px;
 }
 #search input {
-	font-size: 0.9em;
-	text-align: center;
-	font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
     border-style: solid;
     border-width: 1px;
     border-radius: 3px;
@@ -190,7 +191,7 @@ footer {
 .subscribe-input {
     font-size: 1.2em;
     text-align: center;
-	font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
+    font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, sans-serif;
     border-style: solid;
     border-width: 1px;
     border-radius: 3px;
