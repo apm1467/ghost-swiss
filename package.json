@@ -1,4 +1,6 @@
 {
-  "name": "Swiss",
-  "version": "1.0"
+  "name": "swiss",
+  "version": "1.0.0",
+  "author": {"email": "me@yige.ch"},
+  "config": { "posts_per_page": 5}
 }
