@@ -65,6 +65,12 @@ header {
     display: inline;
     margin: 0 4%;
 }
+.navigation li:first-child {
+    margin-left: 0;
+}
+.navigation li:last-child {
+    margin-right: 0;
+}
 article {
     margin: 40px auto;
     line-height: 1.5em;
