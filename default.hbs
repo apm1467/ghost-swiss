@@ -1,62 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{!-- Document Settings --}}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-    {{!-- Ghost outputs important style and meta data with this tag --}}
     {{ghost_head}}
-
-    {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
-
-    {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    {{!-- Brand icon --}}
     <link rel="apple-touch-icon-precomposed" href="{{asset "pics/apple-touch-icon.png"}}">
-
-    {{!-- Styles --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
-
 </head>
 <body>
     <header>
         <div class="blog-title">
-			<a href="/" title={{@blog.title}}>
-				<img src="{{asset "pics/title.png"}}" alt="{{@blog.title}}" class="headerimg">
-			</a><br />
-			<div class="description">{{@blog.description}}</div>
-		</div>
-        
+            <a href="/" title={{@blog.title}}>
+                <img src="{{asset "pics/title.png"}}" alt="{{@blog.title}}" class="headerimg">
+            </a><br />
+            <div class="description">{{@blog.description}}</div>
+        </div>
+
         {{!-- The blog navigation links --}}
         {{navigation}}
     </header>
-    
+
     {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
     {{{body}}}
-        
-    {{!-- The tiny footer at the very bottom --}}
+
     <footer>
         <!-- Search -->
         <form method="get" id="search" action="http://duckduckgo.com/">
-			<input type="hidden" name="sites" value="yige.ch"/>
+            <input type="hidden" name="sites" value="yige.ch"/>
             <input type="hidden" name="kn" value="1"/>
-			<input type="hidden" name="ka" value="Gill Sans"/>
-			<input type="hidden" name="k7" value="rgb(248, 247, 245)"/>
-			<input type="hidden" name="kj" value="rgb(248, 247, 245)"/>
-			<input type="hidden" name="kx" value="color: rgb(66, 65, 63)"/>
-			<input type="hidden" name="kt" value="Gill Sans"/>
-			<input type="text" name="q" maxlength="255" placeholder="Search"/>
-			<input type="submit" value="DuckDuckGo Search" style="display: none;" />
-		</form>
-        
+            <input type="hidden" name="ka" value="Gill Sans"/>
+            <input type="hidden" name="k7" value="rgb(248, 247, 245)"/>
+            <input type="hidden" name="kj" value="rgb(248, 247, 245)"/>
+            <input type="hidden" name="kx" value="color: rgb(66, 65, 63)"/>
+            <input type="hidden" name="kt" value="Gill Sans"/>
+            <input type="text" name="q" maxlength="255" placeholder="Search"/>
+            <input type="submit" value="DuckDuckGo Search" style="display: none;" />
+        </form>
+
         <div class="copyright">Copyright © {{date format="YYYY"}} Yi Ge.</div>
     </footer>
-   
-    {{!-- Ghost outputs important scripts and data with this tag --}}
+
     {{ghost_foot}}
 </body>
 </html>
