@@ -7,14 +7,14 @@
     <title>{{meta_title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon-precomposed" href="{{asset "pics/apple-touch-icon.png"}}">
-    <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+    <link rel="apple-touch-icon-precomposed" href="{{asset 'pics/apple-touch-icon.png'}}">
+    <link rel="stylesheet" type="text/css" href="{{asset 'css/main.css'}}" />
 </head>
 <body>
     <header>
         <div class="blog-title">
             <a href="/" title={{@blog.title}}>
-                <img src="{{asset "pics/title.png"}}" alt="{{@blog.title}}" class="headerimg">
+                <img src="{{asset 'pics/title.png'}}" alt="{{@blog.title}}" class="headerimg">
             </a><br />
             <div class="description">{{@blog.description}}</div>
         </div>
@@ -28,7 +28,7 @@
 
     <footer>
         <!-- Search -->
-        <form method="get" id="search" action="http://duckduckgo.com/">
+        <form method="get" id="search" action="https://duckduckgo.com/">
             <input type="hidden" name="sites" value="yige.ch"/>
             <input type="hidden" name="kn" value="1"/>
             <input type="hidden" name="ka" value="Gill Sans"/>
