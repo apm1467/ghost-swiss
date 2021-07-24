@@ -139,11 +139,12 @@ code {
     margin: 0 -1px;
     border-radius: 3px;
     word-break: break-all;
+    overflow: auto;
 }
 pre code {
     display: block;
     padding: 0;
-    padding-left: 2em;
+    padding-left: 8px;
 }
 .inkout {
     background: rgb(66, 65, 63);
